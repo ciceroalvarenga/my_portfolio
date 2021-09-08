@@ -1,1 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
+
+body {
+  background-image: linear-gradient(to right bottom, #00f260, #0575e6);
+  background-attachment: fixed;
+}
+
+.container {
+  padding-top: 40px;
+}
+
+.row {
+  height: 90vh;
+}
+
+.app_sidebar {
+  background-color: #fff;
+  height: 100%;
+  border-radius: 15px;
+  padding: 25px 15px;
+  box-shadow: 0 0 10px #6d6d70;
+}
+
+.app_main-content {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 25px 15px;
+  box-shadow: 0 0 10px #6d6d70;
+}
