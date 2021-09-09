@@ -28,16 +28,16 @@ export const Sidebar = () => {
         </div>
       </a>
       <figure className="sidebar_social-icons my-2">
-        <a href="">
+        <a href="#">
           <img src={facebook} alt="facebook" className="sidebar_icon mr-3" />
         </a>
-        <a href="">
+        <a href="#">
           <img src={instagram} alt="instagram" className="sidebar_icon" />
         </a>
       </figure>
       <div className="sidebar_contact">
         <div className="sidebar_item sidebar_github">
-          <a href="">
+          <a href="#">
             <img src={github} alt="github" className="sidebar_icon" />
             github
           </a>
