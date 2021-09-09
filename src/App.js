@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sidebar } from './components/Sidebar';
+import { Sidebar } from './components/sidebar/Sidebar';
 
 function App() {
   return (
@@ -7,9 +7,7 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="col-lg-3">
-            <div className="app_sidebar">
-              <Sidebar />
-            </div>
+            <Sidebar />
           </div>
           <div className="col-lg-9 app_main-content">main</div>
         </div>
