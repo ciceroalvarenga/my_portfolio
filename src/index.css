@@ -3,6 +3,7 @@
 body {
   background-image: linear-gradient(to right bottom, #00f260, #0575e6);
   background-attachment: fixed;
+  color: #354548;
 }
 
 a {
@@ -15,12 +16,12 @@ a:hover {
   color: #000;
 }
 
-.container {
+.app_container {
   padding-top: 40px;
 }
 
-.row {
-  height: 90vh;
+.app_row {
+  height: 86vh;
 }
 
 .app_main-content {
