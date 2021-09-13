@@ -1,4 +1,64 @@
 import React from 'react';
+import react from '../../assets/icons/react.svg';
+import js from '../../assets/icons/js.svg';
+import { Bar } from '../bar/Bar';
+import './resume.css';
+
+const languages = [
+  {
+    icon: react,
+    name: 'Python',
+    level: '45',
+  },
+  {
+    icon: js,
+    name: 'Java',
+    level: '60',
+  },
+  {
+    icon: react,
+    name: 'HTML',
+    level: '80',
+  },
+  {
+    icon: react,
+    name: 'react',
+    level: '60',
+  },
+  {
+    icon: react,
+    name: 'Django',
+    level: '80',
+  },
+  {
+    icon: react,
+    name: 'Bootstrap',
+    level: '80',
+  },
+];
+
+const tools = [
+  {
+    icon: react,
+    name: 'Figma',
+    level: '85',
+  },
+  {
+    icon: react,
+    name: 'Photoshop',
+    level: '45',
+  },
+  {
+    icon: react,
+    name: 'Illustrator',
+    level: '60',
+  },
+  {
+    icon: react,
+    name: 'Framer',
+    level: '45',
+  },
+];
 
 export const Resume = () => {
   return (
@@ -40,11 +100,19 @@ export const Resume = () => {
       <div className="row">
         <div className="col-lg-6 resume-languages">
           <h5 className="resume-language_heading">Language and Frameword</h5>
-          <div className="resume-language_body">{}</div>
+          <div className="resume-language_body mt-3">
+            {languages.map((language) => (
+              <Bar value={language} />
+            ))}
+          </div>
         </div>
         <div className="col-lg-6 resume-languages">
           <h5 className="resume-language_heading">Tools and Sofwares</h5>
-          <div className="resume-language_body">{}</div>
+          <div className="resume-language_body mt-3">
+            {tools.map((tool) => (
+              <Bar value={tool} />
+            ))}
+          </div>
         </div>
       </div>
     </div>
