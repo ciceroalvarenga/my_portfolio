@@ -23,6 +23,7 @@ export const Bar = ({ value: { icon, name, level } }) => {
           </span>
         </div>
         <div className="spnier" />
+        <div className="spnier" />
       </div>
     </>
   );
