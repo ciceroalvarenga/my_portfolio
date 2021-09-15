@@ -49,8 +49,19 @@ export const Sidebar = () => {
         <div className="sidebar_item">ciceroalvarenga@gmail.com</div>
         <div className="sidebar_item">(16)99231-1698</div>
       </div>
-      <div className="sidebar_item sidebar_email" onClick={handleEmailMe}>
+      {/* <div className="sidebar_item sidebar_email" onClick={handleEmailMe}>
         Email me
+      </div> */}
+      <div className="container">
+        <div className="btn">
+          <a href="#">Read More</a>
+        </div>
+        <div className="btn">
+          <a href="#">Read More</a>
+        </div>
+        <div className="btn">
+          <a href="#">Read More</a>
+        </div>
       </div>
     </div>
   );
